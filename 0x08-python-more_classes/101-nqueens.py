@@ -50,7 +50,7 @@ if __name__ == "__main__":
     def nqueens(x):
         """recursive backtracking function to find the solution"""
         for y in range(n):
-            clear_a(x)
+                clear_a(x)
             if reject(x, y):
                 a[x][1] = y
                 if (x == n - 1):  # accepts the solution
